@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Zainab Khan</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Zainab Khan</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm Zainab Khan</h1>
+            <p class="hero-subtitle">Software Engineer | Making ML Reliable | Healthcare Innovation</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Software Engineer who builds at the intersection of high-scale systems and high-stakes data. I specialize in making sure that when 'real-world' data hits production, the system doesn't just survive, it performs.</p>
+                    <p>At Philips, I led the development of the Patient Administration Toolkit, engineering interoperability workflows that managed 10,000+ daily transactions. By optimizing these pipelines, I reduced data errors by 35% and significantly cut patient processing times. I’ve also spent time in R&D, building NLP models for MRI complaint categorization that achieved 87% accuracy in production.</p> 
+                    <p> I try to treat system design like an insurance policy: you hope you never need the edge-case handling, but you're glad it's there when the data gets messy.</p>                 
+                    <p>The Question I'm Chasing: We spend so much time teaching models how to be right but are we spending enough time teaching them how to signal when they’re about to be wrong? If you’re interested in building AI that knows its own limits, let’s talk.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/profile.jpg" alt="Zainab Khan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor's of Technology in Information Technology</h3>
+                        <p class="institution"><a href="https://kiit.ac.in" target="_blank" rel="noopener noreferrer">Kalinga Institute of Industrial Technology</a></p>
+                        <p class="date">Graduated: 2023</p>
+                        <p class="description">Relevant coursework: Data Structures & Algorithms, Machine Learning, Database Management, Operating Systems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <details class="skill-category">
+                    <summary class="skill-header">
+                        <span class="skill-title">Data Intelligence</span>
+                        <span class="skill-chevron" aria-hidden="true">▾</span>
+                    </summary>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Generative AI</span>
+                        <span class="skill-tag">Statistical Analysis</span>
+                        <span class="skill-tag">MLflow</span>
+                        <span class="skill-tag">Performance Optimization</span>
+                    </div>
+                </details>
+                <details class="skill-category">
+                    <summary class="skill-header">
+                        <span class="skill-title">Systems Engineering</span>
+                        <span class="skill-chevron" aria-hidden="true">▾</span>
+                    </summary>
+                    <div class="skill-tags">
+                        <span class="skill-tag">System Design</span>
+                        <span class="skill-tag">Backend Architecture</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Data Warehousing</span>
+                        <span class="skill-tag">ETL Pipelines</span>
+                    </div>
+                </details>
+                <details class="skill-category">
+                    <summary class="skill-header">
+                        <span class="skill-title">Tools & Others</span>
+                        <span class="skill-chevron" aria-hidden="true">▾</span>
+                    </summary>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Interoperability Systems</span>
+                        <span class="skill-tag">HL7/FHIR</span>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3>Software Engineer</h3>
+                    <p class="company"><a href="https://www.philips.com/a-w/about.html" target="_blank" rel="noopener noreferrer">Philips</a></p>
+                    <p class="date">Full-time · Healthcare Informatics</p>
+                    <div class="experience-metrics">
+                        <div class="metric">
+                            <span class="metric-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="3 17 9 11 13 15 21 7"></polyline>
+                                    <polyline points="14 7 21 7 21 14"></polyline>
+                                </svg>
+                            </span>
+                            <div class="metric-text">
+                                <span class="metric-value">80%</span>
+                                <span class="metric-label">Automation</span>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M9 12l2 2 4-4"></path>
+                                </svg>
+                            </span>
+                            <div class="metric-text">
+                                <span class="metric-value">100%</span>
+                                <span class="metric-label">Compliance</span>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="4 14 10 10 16 14 20 10"></polyline>
+                                </svg>
+                            </span>
+                            <div class="metric-text">
+                                <span class="metric-value">40%</span>
+                                <span class="metric-label">Efficiency Gain</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Designed and deployed HL7 interoperability workflows across multiple hospitals, enabling 10,000+ healthcare data transactions daily.</li>
+                        <li>Engineered the Patient Administration Toolkit, reducing data-entry errors by 35% and ER admission times by 40%.</li>
+                        <li>Led the redesign of the License Management Automation Platform, cutting manual license-processing effort by ~60%.</li>
+                        <li>Conducted vulnerability scans and monthly security reports to ensure ongoing compliance with Department of Defense (DoD) standards.</li>
+                        <li>Built a test-automation batch execution system covering ~85% of the codebase, accelerating verification cycles and enabling on-time releases.</li>
+                        <li>Mentored new engineers on healthcare standards, system architecture, and internal development practices through training sessions and an internal knowledge base.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>Research & Development</h3>
+                    <p class="company">Philips</p>
+                    <p class="date">Research & Development Internship</p>
+                    <div class="experience-metrics">
+                        <div class="metric">
+                            <span class="metric-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M9 12l2 2 4-4"></path>
+                                </svg>
+                            </span>
+                            <div class="metric-text">
+                                <span class="metric-value">87%</span>
+                                <span class="metric-label">Accuracy</span>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                            </span>
+                            <div class="metric-text">
+                                <span class="metric-value">2x</span>
+                                <span class="metric-label">Faster Analysis</span>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="3 17 9 11 13 15 21 7"></polyline>
+                                    <polyline points="14 7 21 7 21 14"></polyline>
+                                </svg>
+                            </span>
+                            <div class="metric-text">
+                                <span class="metric-value">20%</span>
+                                <span class="metric-label">Efficiency Gain</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Built an NLP-based complaint classifier for MRI systems to accelerate complaint triage in clinical workflows.</li>
+                        <li>Prepared large-scale datasets and implemented Python ETL pipelines to automate and standardize text preprocessing.</li>
+                        <li>Deployed and maintained an MLflow server to centralize and standardize experiment tracking across models.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>MLflow Experiment Tracking Platform</h3>
+                        <p class="project-subtitle">Philips · ML Reliability Infrastructure</p>
+                        <p class="project-description">Set up and configured a centralized MLflow server to track experiments across R&D projects, standardizing metrics, parameters, and model artifacts for reproducible experimentation.</p>
+                        <div class="project-tags">
+                            <span class="tag">MLflow</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">MLOps</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>AI-Enabled FinTech B2B Cloud App</h3>
+                        <p class="project-subtitle"><a href="https://www.highradius.com" target="_blank" rel="noopener noreferrer">HighRadius</a> · Academic Internship Project</p>
+                        <p class="project-description">Built a cloud-based B2B application in the FinTech domain, gaining end-to-end experience from data ingestion and model integration to UI workflows and deployment on a production-like environment.</p>
+                        <div class="project-tags">
+                            <span class="tag">FinTech</span>
+                            <span class="tag">Cloud</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Volunteering Section -->
+    <section id="leadership" class="experience">
+        <div class="container">
+            <h2 class="section-title">Leadership & Volunteering</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3>Troop Commander</h3>
+                    <p class="company"><a href="https://indiancc.mygov.in" target="_blank" rel="noopener noreferrer">National Cadet Corps (NCC)</a></p>
+                    <p class="date">Leadership & Community Service</p>
+                    <ul class="experience-details">
+                        <li>Served as troop commander, leading peers in drills, discipline, and field activities.</li>
+                        <li>Coordinated large-group community initiatives including blood donation and food distribution drives.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3>Developer & Student Lead</h3>
+                    <p class="company">Teamos (Student-Led Startup)</p>
+                    <p class="date">Product Development & Peer Enablement</p>
+                    <ul class="experience-details">
+                        <li>Contributed as a developer on early product iterations for a student collaboration platform.</li>
+                        <li>Supported recruitment, onboarding, and coordination of technical drives to help peers form project and hackathon teams.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Feel free to reach out for collaborations or opportunities!</p>
+            <div class="contact-content">
+                <div class="social-links">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/zainabkhan02" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.39v-1.2h-2.84v8.37h2.84v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.84M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Email" id="emailIcon" data-email="khan.zainab9026@gmail.com">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div id="emailCopyContainer" class="email-copy-container" aria-hidden="true">
+                        <input type="text" id="emailCopyInput" class="email-copy-input" readonly>
+                        <p class="email-copy-hint">Select and copy the email address.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Zainab Khan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
